@@ -18,6 +18,7 @@ jobs:
 
     - name: Install dependencies
       run: |
+        pip install numpy==1.21.0
         pip install ccxt pandas pandas_ta pytz
 
     - name: Run script
