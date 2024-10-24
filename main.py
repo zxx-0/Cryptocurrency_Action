@@ -165,7 +165,7 @@ def filter_by_conditions(symbol, timeframes=['1d', '4h', '1h', '15m']):
 
     return satisfied_timeframes >= 3
 
-def get_top_volume_perpetual(top_n=30):
+def get_top_volume_perpetual(top_n=50):
     """
     获取成交量前top_n的U本位永续合约。
     """
